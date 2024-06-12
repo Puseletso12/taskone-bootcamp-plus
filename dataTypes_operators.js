@@ -46,9 +46,9 @@ let value2 = 5;
 let isEqual = value1 == value2;
 console.log("Is Equal:", isEqual);
 
-//Equal value and equal type (===)
-let isEqualValueandType = value1 === value2;
-console.log("isEqualValueandType", isEqualValueandType);
+//Strictly equal to (===)
+let strictlyEqual = value1 === value2;
+console.log("Strictyly Equal to:", strictlyEqual);
 
 //Not equal to (!=)
 let isNotEqual = value1 != value2;
